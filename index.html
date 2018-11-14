@@ -1,7 +1,33 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>This site is under construction. Will be available soon.</h1>
-<p>This is hosted in GitHub Pages.</p>
+<h1>Posters presented at IEEE2018 are available bellow:</h1>
+<p>Download links:</p>
+<a target="_blank" href="Docs/EasyPET_IEEE2018-compressed.pdf" download>
+  <p>Intelligent scanning preclinical PET: project status and first animal imaging</p>
+</a>
+<a target="_blank" href="Docs/EasyPET_edugate_IEEE2018-compressed.pdf" download>
+  <p>Development of an EDUGATE simulation toolkit for the easyPET scanners family</p>
+</a>
+<a target="_blank" href="Docs/Poster_drimPET_larger-compressed.pdf" download>
+  <p>drimPET: determination of DoI in LYSO crystals and application of a multiplexing resistive circuit for MPPC readout</p>
+</a>
+<a target="_blank" href="Docs/assessment_easypet-compressed.pdf" download>
+  <p>Assessment of easyPET for 18F-FDG neurological studies in mice</p>
+</a>
+<p>Contact:</p>
+<p>Pedro Correia</p>
+<a href="mailto:pmcorreia@ua.pt">pmcorreia@ua.pt</a>
+<p>This site is under construction.</p>
+<?php
+// the message
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("pmcorreia@ua.pt","Someone accessed the site",$msg);
+?>
 </body>
 </html>
